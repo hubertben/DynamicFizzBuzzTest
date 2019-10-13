@@ -10,8 +10,9 @@ public class FizzBuzz {
     public static int[] nums = {3, 5};
 
     public static void main(String[] args) {
-
-        for (int i = 1; i < 200; i++) {
+        
+        int size = 100;
+        for (int i = 1; i < size; i++) {
             String output = "";
             for (int j = 0; j < words.length; j++) {
                 if (i % nums[j] == 0) {
